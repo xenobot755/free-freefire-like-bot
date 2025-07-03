@@ -135,9 +135,9 @@ class LikeCommands(commands.Cog):
                             f"├─ NICKNAME: {data.get('player', 'Unknown')}\n"
                             f"├─ UID: {uid}\n"
                             f"└─ RESULT:\n"
-                            f"   ├─ ✅ADDED: +{data.get('likes_added', 0)}\n"
-                            f"   ├─ ⏪BEFORE: {data.get('likes_before', 'N/A')}\n"
-                            f"   └─ ⏩AFTER: {data.get('likes_after', 'N/A')}\n"
+                            f"   ├─ ADDED: +{data.get('likes_added', 0)}\n"
+                            f"   ├─ BEFORE: {data.get('likes_before', 'N/A')}\n"
+                            f"   └─ AFTER: {data.get('likes_after', 'N/A')}\n"
                         )
                     else:
                         embed.description = "\n┌MAX LIKES\n└─This UID has already received the maximum likes today.\n"
