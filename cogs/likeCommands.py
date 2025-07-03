@@ -131,18 +131,18 @@ class LikeCommands(commands.Cog):
                     if data.get("status") == 1:
                         embed.description = (
                             f"\n"
-                            f"┌  ACCOUNT\n"
+                            f"┌  💳ACCOUNT\n"
                             f"├─ NICKNAME: {data.get('player', 'Unknown')}\n"
                             f"├─ UID: {uid}\n"
                             f"└─ RESULT:\n"
-                            f"   ├─ ADDED: +{data.get('likes_added', 0)}\n"
-                            f"   ├─ BEFORE: {data.get('likes_before', 'N/A')}\n"
-                            f"   └─ AFTER: {data.get('likes_after', 'N/A')}\n"
+                            f"   ├─ ✅ADDED: +{data.get('likes_added', 0)}\n"
+                            f"   ├─ ⏪BEFORE: {data.get('likes_before', 'N/A')}\n"
+                            f"   └─ ⏩AFTER: {data.get('likes_after', 'N/A')}\n"
                         )
                     else:
                         embed.description = "\n┌MAX LIKES\n└─This UID has already received the maximum likes today.\n"
 
-                    embed.set_footer(text="DEVELOPED BY JOY")
+                    embed.set_footer(text="📌DEVELOPED BY JOY")
                     embed.description += "\n🔗 JOIN : https://discord.gg/VKSUyhGr6q"
                     await ctx.send(embed=embed, mention_author=True, ephemeral=is_slash)
 
