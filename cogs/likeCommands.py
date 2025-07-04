@@ -131,14 +131,14 @@ class LikeCommands(commands.Cog):
                     if data.get("status") == 1:
                         embed.description = (
                             f"\n"
-                            f"┌  💳ACCOUNT\n"
+                            f"┌  💳 ACCOUNT\n"
                             f"├─ NICKNAME: {data.get('player', 'Unknown')}\n"
                             f"├─ UID: {uid}\n"
                             f"└─ RESULT:\n"
-                            f"   ├─ ✅ADDED: +{data.get('likes_added', 0)}\n"
-                            f"   ├─ ⏪BEFORE: {data.get('likes_before', 'N/A')}\n"
-                            f"   └─ ⏩AFTER: {data.get('likes_after', 'N/A')}\n"
-                            f"       『𝕊𝕋𝔸𝕐 𝕎𝕀𝕋ℍ 𝕋𝕊 𝔸ℝ𝕄𝕐』      【Ｅ】【Ｎ】【Ｊ】【Ｏ】【Ｙ】😎🤙🏻🔥
+                            f"   ├─ ✅ ADDED: +{data.get('likes_added', 0)}\n"
+                            f"   ├─ ⏪ BEFORE: {data.get('likes_before', 'N/A')}\n"
+                            f"   └─ ⏩ AFTER: {data.get('likes_after', 'N/A')}\n"
+                            f"   └─ 『𝕊𝕋𝔸𝕐 𝕎𝕀𝕋ℍ 𝕋𝕊 𝔸ℝ𝕄𝕐』      【Ｅ】【Ｎ】【Ｊ】【Ｏ】【Ｙ】😎🤙🏻🔥
                         )
                     else:
                         embed.description = "\n┌MAX LIKES\n└─This UID has already received the maximum likes today.\n"
