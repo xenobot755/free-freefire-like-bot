@@ -138,7 +138,6 @@ class LikeCommands(commands.Cog):
                             f"   ├─ ✅ ADDED: +{data.get('likes_added', 0)}\n"
                             f"   ├─ ⏪ BEFORE: {data.get('likes_before', 'N/A')}\n"
                             f"   └─ ⏩ AFTER: {data.get('likes_after', 'N/A')}\n"
-                            f"   └─ 『𝕊𝕋𝔸𝕐 𝕎𝕀𝕋ℍ 𝕋𝕊 𝔸ℝ𝕄𝕐』      【Ｅ】【Ｎ】【Ｊ】【Ｏ】【Ｙ】😎🤙🏻🔥
                         )
                     else:
                         embed.description = "\n┌MAX LIKES\n└─This UID has already received the maximum likes today.\n"
